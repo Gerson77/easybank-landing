@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page solution
 
-![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Easybank landing page coding challenge](./images/desktop-preview.jpg)
 
 This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
