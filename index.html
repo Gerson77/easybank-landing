@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="header" id="header">
-      <div class="header-content container">
+      <div class="container header-content">
         <a href="#home">
           <img src="./images/logo.svg" alt="logo bank" />
         </a>
@@ -28,31 +28,37 @@
         <div class="btn-invite hero">
           <button type="button">Request Invite</button>
         </div>
-        <img class="menu-hamb" src="./images/icon-hamburger.svg" alt="">
+        <div class="menu-hamb">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </header>
 
-    <section class="banner container" id="home">
-      <div class="content-banner">
-        <h2>Next generation digital banking</h2>
-        <p>
-          Take your financial life online. Your Easybank account will be a
-          one-stop-shop for spending, saving, budgeting, investing, and much
-          more.
-        </p>
-        <div class="btn-invite">
-          <button type="button">Request Invite</button>
+    <section class="banner" id="home">
+      <div class="container content-banner">
+        <div class="content-hero">
+          <h2>Next generation digital banking</h2>
+          <p>
+            Take your financial life online. Your Easybank account will be a
+            one-stop-shop for spending, saving, budgeting, investing, and much
+            more.
+          </p>
+          <div class="btn-invite">
+            <button type="button">Request Invite</button>
+          </div>
+        </div>
+        <div class="images">
+          <img class="shapes" src="./images/bg-intro-desktop.svg" alt="" />
+          <img class="shapes-mobile" src="./images/bg-intro-mobile.svg" alt="" />
+          <img class="mobiles" src="./images/image-mockups.png" alt="" />
         </div>
       </div>
-      <img class="banner1" src="./images/bg-intro-desktop.svg" alt="" />
-      <img class="banner2" src="./images/bg-intro-mobile.svg" alt="" />
     </section>
-    <div class="mobile-float">
-      <img src="./images/image-mockups.png" alt="" />
-    </div>
 
     <section id="about" class="about">
-      <div class="content-about container">
+      <div class="container content-about">
         <h2>Why choose Easybank?</h2>
         <p>
           We leverage Open Banking to turn your bank account into your financial
@@ -96,7 +102,7 @@
       </div>
     </section>
 
-    <section id="contact" class="articles container">
+    <section id="contact" class="container articles">
       <h2>Latest Articles</h2>
       <div class="content-articles">
         <div class="article">
@@ -148,7 +154,7 @@
     </section>
 
     <footer>
-      <div class="footer container">
+      <div class="container footer">
         <div class="social">
           <img src="./images/logo-white.svg" alt="" />
 
@@ -179,12 +185,12 @@
       </div>
     </footer>
 
-    <!-- <div class="attribution">
+    <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Gerson Santos</a>.
-    </div> -->
+    </div>
 
     <script src="./main.js"></script>
   </body>
